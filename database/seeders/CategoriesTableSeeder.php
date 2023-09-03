@@ -13,7 +13,7 @@ class CategoriesTableSeeder extends Seeder
      */
     public function run(): void
     {
-        DB::table('categories')->insert(
+        DB::table('categories')->insert([
             [
                 'name' => 'Starters',
                 'image' => 'mushrooms.jpg',
@@ -29,6 +29,6 @@ class CategoriesTableSeeder extends Seeder
                 'image' => 'burger.jpg',
                 'display_order' => 3
             ]
-        );
+        ]);
     }
 }
