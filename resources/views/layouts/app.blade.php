@@ -68,6 +68,7 @@
         </header>  
         <main class="page-content">
             @yield('content')
+            <br>
         </main>    
         <footer>
             NADIA’S GARDEN RESTAURANT IS A FICTITIOUS BRAND CREATED BY LYNDA.COM SOLELY FOR THE PURPOSE OF TRAINING.
